@@ -1,28 +1,6 @@
-
-<%@ page language="java" contentType="text/html; charset=GBK" pageEncoding="GBK"%>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=GBK">
-    <title>µÇÂ¼</title>
-</head>
-<body>
-<style  type="text/css" media="screen">
-    body
-    {
-        background-image:
-                url(beijing.jpg);
-        background-size:100% 100% ;
-        text-align:center;
-        vertical-align:middle;
-    }
-</style>
-<div>
-    <form action="shop.jsp"  method="post">
-        ÕËºÅ:<input type="text" name="username"><br>
-        ÃÜÂë:<input type="password" name="password"><br>
-        <input type="submit"  value="Ìá½»">
-        <input type="reset" value="ÖØÖÃ">
-    </form>
-</div>
-</body>
-</html>
+ï»¿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<form action="userReceive.jsp" method="post">
+å§“  åï¼š<input type="text" name="RdName"><br>
+å¯†  ç ï¼š<input type="password" name="RdPasswd"><br><br>
+<input type="submit" value="ç¡®å®š">
+</form>
